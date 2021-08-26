@@ -1,0 +1,288 @@
+{
+  "contractName": "Trivial",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "getValue",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "pure",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"getValue\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"pure\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/D/Code/solidity/contracts/trivial/trivial.sol\":\"Trivial\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/D/Code/solidity/contracts/trivial/trivial.sol\":{\"keccak256\":\"0x8d84e4f712e139e63e796751bc6cd97a9c7b5060d8b84e9401c36a91a18fa838\",\"urls\":[\"bzz-raw://8035bf8c49d78cb93a1c61d22bbf3d127fa9f75cc24d334659798dec2e4b2b41\",\"dweb:/ipfs/QmdPTuY3PTuLu8AWu2uzzrH9kyVbV6ESLaVzNtxi41AJCa\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b5060878061001e6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c80632096525514602d575b600080fd5b60336049565b6040518082815260200191505060405180910390f35b6000606390509056fea265627a7a72315820ca7dcc2764c2d0ba606e4531755dc92b499af04454ab8b1f0648c636af94a20c64736f6c63430005100032",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c80632096525514602d575b600080fd5b60336049565b6040518082815260200191505060405180910390f35b6000606390509056fea265627a7a72315820ca7dcc2764c2d0ba606e4531755dc92b499af04454ab8b1f0648c636af94a20c64736f6c63430005100032",
+  "sourceMap": "27:181:3:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;27:181:3;;;;;;;",
+  "deployedSourceMap": "27:181:3:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;27:181:3;;;;;;;;;;;;;;;;;;;125:78;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;166:7;193:2;186:9;;125:78;:::o",
+  "source": "pragma solidity 0.5.16;\r\n\r\ncontract Trivial {\r\n\r\n    // Pure functions ensure that they do not read or modify the state\r\n    function getValue() public pure returns (uint256) {\r\n        return 99;\r\n    }\r\n\r\n}\r\n",
+  "sourcePath": "D:/Code/solidity/contracts/trivial/trivial.sol",
+  "ast": {
+    "absolutePath": "/D/Code/solidity/contracts/trivial/trivial.sol",
+    "exportedSymbols": {
+      "Trivial": [
+        236
+      ]
+    },
+    "id": 237,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 227,
+        "literals": [
+          "solidity",
+          "0.5",
+          ".16"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:3"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 236,
+        "linearizedBaseContracts": [
+          236
+        ],
+        "name": "Trivial",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 234,
+              "nodeType": "Block",
+              "src": "175:28:3",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "hexValue": "3939",
+                    "id": 232,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": true,
+                    "kind": "number",
+                    "lValueRequested": false,
+                    "nodeType": "Literal",
+                    "src": "193:2:3",
+                    "subdenomination": null,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_rational_99_by_1",
+                      "typeString": "int_const 99"
+                    },
+                    "value": "99"
+                  },
+                  "functionReturnParameters": 231,
+                  "id": 233,
+                  "nodeType": "Return",
+                  "src": "186:9:3"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 235,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getValue",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 228,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "142:2:3"
+            },
+            "returnParameters": {
+              "id": 231,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 230,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 235,
+                  "src": "166:7:3",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 229,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "166:7:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "165:9:3"
+            },
+            "scope": 236,
+            "src": "125:78:3",
+            "stateMutability": "pure",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 237,
+        "src": "27:181:3"
+      }
+    ],
+    "src": "0:210:3"
+  },
+  "legacyAST": {
+    "absolutePath": "/D/Code/solidity/contracts/trivial/trivial.sol",
+    "exportedSymbols": {
+      "Trivial": [
+        236
+      ]
+    },
+    "id": 237,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 227,
+        "literals": [
+          "solidity",
+          "0.5",
+          ".16"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:3"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 236,
+        "linearizedBaseContracts": [
+          236
+        ],
+        "name": "Trivial",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 234,
+              "nodeType": "Block",
+              "src": "175:28:3",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "hexValue": "3939",
+                    "id": 232,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": true,
+                    "kind": "number",
+                    "lValueRequested": false,
+                    "nodeType": "Literal",
+                    "src": "193:2:3",
+                    "subdenomination": null,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_rational_99_by_1",
+                      "typeString": "int_const 99"
+                    },
+                    "value": "99"
+                  },
+                  "functionReturnParameters": 231,
+                  "id": 233,
+                  "nodeType": "Return",
+                  "src": "186:9:3"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 235,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getValue",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 228,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "142:2:3"
+            },
+            "returnParameters": {
+              "id": 231,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 230,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 235,
+                  "src": "166:7:3",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 229,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "166:7:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "165:9:3"
+            },
+            "scope": 236,
+            "src": "125:78:3",
+            "stateMutability": "pure",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 237,
+        "src": "27:181:3"
+      }
+    ],
+    "src": "0:210:3"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.3.2",
+  "updatedAt": "2021-08-26T21:24:38.346Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
