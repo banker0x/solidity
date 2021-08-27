@@ -4,7 +4,7 @@ contract TipJar {
 
     address owner;    // current owner of the contract
 
-    function TipJar() public {
+    constructor() public {
         owner = msg.sender;
     }
 
