@@ -6,8 +6,7 @@ contract Kill {
     constructor() payable {}
 
     function kill() external {
-        // Self destruct function will send all contract ether
-        // to the specified account
+        // Self destruct function will send all contract ether to the specified account
         selfdestruct(payable(msg.sender));
     }
 
