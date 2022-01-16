@@ -1,6 +1,20 @@
 Each variable declared and used within a contract has a data location. EVM provides the following four data structures for storing variables:
 
-Storage: This is global memory available to all functions within the contract. This storage is a permanent storage that Ethereum stores on every node within its environment.
-Memory: This is local memory available to every function within a contract. This is short lived and fleeting memory that gets torn down when the function completes its execution.
-Calldata: This is where all incoming function execution data, including function arguments, is stored. This is a non-modifiable memory location.
-Stack: EVM maintains a stack for loading variables and intermediate values
+  Storage: This is global memory available to all functions within the contract. This storage is a permanent storage that Ethereum stores on every node within its environment.
+  
+  Memory: This is local memory available to every function within a contract. This is short lived and fleeting memory that gets torn down when the function completes.
+  
+  Calldata: This is where all incoming function execution data, including function arguments, is stored. This is a non-modifiable memory location.
+  
+  Stack: EVM maintains a stack for loading variables and intermediate values.
+
+
+Here we clarify where the Ethereum Virtual Machine stores variables.
+
+  State variables (declared directly in the smart contract) always storage.
+
+  Function arguments. Always memory (with array types like string this needs to be stated explicitly)
+  
+  Local variables (in functions) of the types struct, array or mapping are stored either in memory or storage. The place needs to be stated explicitly when declaring the variable.
+
+  Local variables (in functions) of value types (e. g. uint32) always in stack
