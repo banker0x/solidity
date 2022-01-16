@@ -11,7 +11,6 @@ Enum
 Structs
 Data Locations - Storage, Memory and Calldata
 Function
-View and Pure Functions
 Error
 Function Modifier
 Constructor
