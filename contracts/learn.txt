@@ -6,7 +6,6 @@ Reading and Writing to a State Variable
 Ether and Wei
 Gas and Gas Price
 Mapping
-Array
 Data Locations - Storage, Memory and Calldata
 Function Modifier
 Constructor
