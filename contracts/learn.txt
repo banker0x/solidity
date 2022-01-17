@@ -1,4 +1,3 @@
-First App
 Reading and Writing to a State Variable
 Data Locations - Storage, Memory and Calldata
 Inheritance
