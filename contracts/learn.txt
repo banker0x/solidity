@@ -7,10 +7,8 @@ Ether and Wei
 Gas and Gas Price
 Mapping
 Array
-Enum
 Structs
 Data Locations - Storage, Memory and Calldata
-Function
 Function Modifier
 Constructor
 Inheritance
