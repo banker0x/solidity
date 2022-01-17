@@ -3,7 +3,6 @@ First App
 Primitive Data Types
 Variables
 Reading and Writing to a State Variable
-Ether and Wei
 Mapping
 Data Locations - Storage, Memory and Calldata
 Function Modifier
