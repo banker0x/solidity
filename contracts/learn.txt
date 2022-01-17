@@ -14,7 +14,6 @@ Constructor
 Inheritance
 Shadowing Inherited State Variables
 Calling Parent Contracts
-Visibility
 Interface
 Sending Ether - Transfer, Send, and Call
 Fallback
