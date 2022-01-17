@@ -2,7 +2,6 @@ Hello World
 First App
 Reading and Writing to a State Variable
 Data Locations - Storage, Memory and Calldata
-Function Modifier
 Inheritance
 Shadowing Inherited State Variables
 Calling Parent Contracts
