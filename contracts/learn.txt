@@ -4,7 +4,6 @@ Primitive Data Types
 Variables
 Reading and Writing to a State Variable
 Ether and Wei
-Gas and Gas Price
 Mapping
 Data Locations - Storage, Memory and Calldata
 Function Modifier
