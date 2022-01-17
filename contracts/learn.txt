@@ -8,7 +8,6 @@ Inheritance
 Shadowing Inherited State Variables
 Calling Parent Contracts
 Interface
-Sending Ether - Transfer, Send, and Call
 Fallback
 Call
 Delegatecall
