@@ -7,7 +7,6 @@ Ether and Wei
 Gas and Gas Price
 Mapping
 Array
-Structs
 Data Locations - Storage, Memory and Calldata
 Function Modifier
 Constructor
