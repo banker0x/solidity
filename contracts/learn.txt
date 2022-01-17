@@ -1,7 +1,6 @@
 Hello World
 First App
 Primitive Data Types
-Variables
 Reading and Writing to a State Variable
 Mapping
 Data Locations - Storage, Memory and Calldata
