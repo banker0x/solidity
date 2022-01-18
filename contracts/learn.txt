@@ -1,4 +1,3 @@
-Multiple Inheritance
 Shadowing Inherited State Variables
 Calling Parent Contracts
 Interface
