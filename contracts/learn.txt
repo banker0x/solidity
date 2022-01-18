@@ -9,7 +9,6 @@ Function Selector
 Calling Other Contract
 Creating Contracts from a Contract
 Try / Catch
-Hashing with Keccak256
 Verifying Signature
 
 Applications
