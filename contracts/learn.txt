@@ -1,4 +1,3 @@
-Shadowing Inherited State Variables
 Fallback
 Call
 Delegatecall
