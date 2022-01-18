@@ -1,5 +1,4 @@
 Shadowing Inherited State Variables
-Calling Parent Contracts
 Fallback
 Call
 Delegatecall
