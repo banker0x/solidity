@@ -1,4 +1,3 @@
-Reading and Writing to a State Variable
 Inheritance
 Shadowing Inherited State Variables
 Calling Parent Contracts
