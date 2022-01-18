@@ -4,7 +4,6 @@ Fallback
 Call
 Delegatecall
 Function Selector
-Calling Other Contract
 Creating Contracts from a Contract
 Try / Catch
 Verifying Signature
