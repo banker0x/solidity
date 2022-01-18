@@ -1,5 +1,4 @@
 Reading and Writing to a State Variable
-Data Locations - Storage, Memory and Calldata
 Inheritance
 Shadowing Inherited State Variables
 Calling Parent Contracts
