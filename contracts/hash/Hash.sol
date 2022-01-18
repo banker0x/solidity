@@ -5,7 +5,8 @@ contract HashFunction {
     
     function hash(string memory _text, uint _num, address _addr) public pure returns (bytes32) {
         
-        // keccak256 requires inputs as bytes 
+        // keccak256 requires inputs as bytes, and can take any number of inputs
+        // abi.encode & abi.encodePacked can transfor inputs into bytes for the keccak hash function
         return keccak256(abi.encodePacked(_text, _num, _addr));
 
         // Example of hash collision
