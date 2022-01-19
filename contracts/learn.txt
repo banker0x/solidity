@@ -1,5 +1,4 @@
 Function Selector - optional
-Try / Catch
 Verifying Signature - optional
 
 Applications
