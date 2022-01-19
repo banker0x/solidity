@@ -1,4 +1,3 @@
-Call
 Delegatecall
 Function Selector
 Try / Catch
