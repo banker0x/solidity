@@ -1,6 +1,6 @@
 Function Selector - optional
 Try / Catch
-Verifying Signature
+Verifying Signature - optional
 
 Applications
 
