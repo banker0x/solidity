@@ -16,6 +16,12 @@ contract Timestamp {
     }
 
     function deposit(uint256 numberOfDays) public payable {
+    
+        // Solidity has “time units” built in. I can specify 3 days or 5 years, for instance. 
+        // The contract will be parameterized by a waiting period specified in days. Because 
+        // the EVM naturally stores time in seconds, the contract must scale the waiting period 
+        // by the number of seconds in a day, which is given by the literal 1 days in Solidity.
+   
         deadline = block.timestamp + (numberOfDays * 1 days);
     }
     
